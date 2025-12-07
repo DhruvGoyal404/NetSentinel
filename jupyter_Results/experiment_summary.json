@@ -1,0 +1,26 @@
+{
+  "best_models": {
+    "accuracy": "Naive Bayes",
+    "f1_score": "Naive Bayes",
+    "precision": "LSTM (Module 3)",
+    "recall": "Naive Bayes"
+  },
+  "experiments": {
+    "traditional_ml": 6,
+    "smote_applied": true,
+    "ensemble_tested": 2,
+    "feature_reduction": true
+  },
+  "top_features": [
+    "service",
+    "protocol_type",
+    "dst_host_srv_rerror_rate",
+    "srv_serror_rate",
+    "rerror_rate",
+    "diff_srv_rate",
+    "urgent",
+    "dst_host_srv_serror_rate",
+    "num_outbound_cmds",
+    "dst_host_srv_count"
+  ]
+}
